@@ -1,0 +1,46 @@
+// function isLeapYear(year){ 
+//     if((year % 400 === 0)  || ((year % 4 === 0) && (year % 100 !== 0))){
+// console.log(`${year} is leap year!`);
+//     }
+//     else {console.log (`${year} is not a leap year!`);
+//         }
+// }
+
+// isLeapYear(2020);
+
+
+const vowels = ["a", "e","i","o", "u", "A", "E", "I", "O", "U"]
+
+function countVowels(sentence){
+    let count = 0;
+    const letters = Array.from(sentence);
+    letters.forEach(function(value, index, array){
+        if(vowels.includes(value)){
+            count++;
+        }
+    });
+    return count;
+}
+
+console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
+
+
+// const numbers = [1, 6, 8, 7, 9, 12, 12, 11, 8, 1, 7, 9, 6, 7];
+
+// const duplicates = numbers.filter(function(value, index, array){
+//     return array.indexOf(value) === index
+// });
+
+
+// console.log(duplicates);
+
+
+
+// function inchToFeet(inch){
+//     const feet = inch / 12;
+//     const feetNo = parseInt(feet);
+//     const inchRemaining = inch % 12;
+//     return result = feetNo+' ft '+inchRemaining+' inch';
+// }
+// const shuvoHeight = inchToFeet(95);
+// console.log(shuvoHeight);
