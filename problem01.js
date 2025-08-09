@@ -12,12 +12,11 @@
 
 // isLeapYear(2020);
 
-
+// -----------------------------------------------------------
 
 // problem solution 02
 
 // vowel hunting
-
 
 // const vowels = ["a", "e","i","o", "u", "A", "E", "I", "O", "U"]
 
@@ -33,3 +32,32 @@
 // }
 
 // console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
+
+// -----------------------------------------------------------
+// problem solution 03
+
+// unique hunting
+
+// const numbers = [1, 6, 8, 7, 9, 12, 12, 11, 8, 1, 7, 9, 6, 7];
+
+// const duplicates = numbers.filter(function(value, index, array){
+//     return array.indexOf(value) === index
+// });
+
+// console.log(duplicates);
+
+// -----------------------------------------------------------
+
+// problem solution 04
+
+// converting...
+
+function inchToFeet(inch){
+    const feet = inch / 12;
+    const feetNo = parseInt(feet);
+    const inchRemaining = inch % 12;
+    return result = feetNo+' ft'+inchRemaining+' inch';
+}
+const shuvoHeight = inchToFeet(65);
+console.log(shuvoHeight);
+
