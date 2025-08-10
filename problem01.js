@@ -2,15 +2,15 @@
 
 // leaf Year
 
-// function isLeapYear(year){ 
-//     if((year % 400 === 0)  || ((year % 4 === 0) && (year % 100 !== 0))){
-// console.log(`${year} is leap year!`);
-//     }
-//     else {console.log (`${year} is not a leap year!`);
-//         }
-// }
+function isLeapYear(year){ 
+    if(((year % 400 === 0) && (year % 100 === 0)) || ((year % 4 === 0) && (year % 100 !== 0))){
+console.log(`${year} is leap year!`);
+    }
+    else {console.log (`${year} is not a leap year!`);
+        }
+}
 
-// isLeapYear(2020);
+isLeapYear(2018);
 
 // -----------------------------------------------------------
 
@@ -34,6 +34,7 @@
 // console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
 
 // -----------------------------------------------------------
+
 // problem solution 03
 
 // unique hunting
@@ -52,12 +53,15 @@
 
 // converting...
 
-function inchToFeet(inch){
-    const feet = inch / 12;
-    const feetNo = parseInt(feet);
-    const inchRemaining = inch % 12;
-    return result = feetNo+' ft'+inchRemaining+' inch';
-}
-const shuvoHeight = inchToFeet(65);
-console.log(shuvoHeight);
+// function inchToFeet(inch){
+//     const feet = inch / 12;
+//     const feetNo = parseInt(feet);
+//     const inchRemaining = inch % 12;
+//     return result = feetNo+' ft'+inchRemaining+' inch';
+// }
+// const shuvoHeight = inchToFeet(65);
+// console.log(shuvoHeight);
 
+// -----------------------------------------------------------
+
+// problem solution 05
