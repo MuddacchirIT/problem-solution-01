@@ -13,7 +13,6 @@
 // isLeapYear(2018);
 
 // -----------------------------------------------------------
-
 // problem solution 02
 
 // vowel hunting
@@ -34,7 +33,6 @@
 // console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
 
 // -----------------------------------------------------------
-
 // problem solution 03
 
 // unique hunting
@@ -48,7 +46,6 @@
 // console.log(duplicates);
 
 // -----------------------------------------------------------
-
 // problem solution 04
 
 // converting...
@@ -63,7 +60,6 @@
 // console.log(shuvoHeight);
 
 // -----------------------------------------------------------
-
 // problem solution 05
 
 // Arry from odd hunting & average 
@@ -124,7 +120,6 @@
 
 
 // -----------------------------------------------------------
-
 // problem solution 02
 
 // Highest Value of the array
@@ -146,7 +141,6 @@
 // console.log(`Max value is ${max}`);
 
 // -----------------------------------------------------------
-
 // problem solution 02
 
 // lowest Value of the array
@@ -167,4 +161,23 @@
 // const min = getMax(height);
 // console.log(`Min value is ${min}`);
 
+// -----------------------------------------------------------
+// problem solution 03
+// The Cheapest Price is 
+
+const prices = [21000, 32000, 15000, 43000, 56000, 17000, 29000];
+
+function getMin(numbers){
+        let min = numbers[0];
+        for(const num of numbers){
+            if(num < min){
+                min = num;
+        }    
+     }
+     return min;
+}
+
+
+const cheap = getMin(prices);
+console.log(`Cheapest one is ${cheap}`);
 
