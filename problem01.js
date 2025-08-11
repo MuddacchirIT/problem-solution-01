@@ -107,8 +107,24 @@
       //  ----problem solution part 2----
 
 // -----------------------------------------------------------
-  
+// problem solution 01  
+// const abul = 56;
+// const babul = 96;
+// const kabul = 48;
 
+// if(abul > babul && abul > kabul){
+//    console.log(`Abul is the best and`)
+//    }
+//    else if(babul > abul && babul > kabul){
+//      console.log(`Babul is better `)
+//    }
+// else{
+//     console.log(`Kabul is good `)
+// }
+
+
+// -----------------------------------------------------------
+// problem solution 02
 
 
 
