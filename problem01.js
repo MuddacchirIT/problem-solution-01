@@ -220,7 +220,7 @@
 
 const phones = [
     {name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
-    {name: 'i-Phone', price: 22000, camera: '12mpx', color: 'black'},
+    {name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
     {name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
     {name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
     {name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
@@ -232,4 +232,34 @@ const phones = [
     {name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
     {name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
 ]
+
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------------------
+// problem solution 05
+// Total price of all phones
+
+// function getShoppingTotals (phones){
+//     let total = 0;
+//     for(const product of phones){
+//         total = total + product.price;
+//     }
+//     return total;
+// }
+
+// const total = getShoppingTotals(phones);
+// console.log(`Total price is ${total}`)
+
+
+// -----------------------------------------------------------
+// problem solution 06
+// Shopping Card
+
 
