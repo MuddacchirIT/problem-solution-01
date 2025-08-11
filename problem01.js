@@ -218,20 +218,20 @@
 // problem solution 04
 // The Biggest Phone Price from objects
 
-const phones = [
-    {quantity: 5, name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
-    {quantity: 9, name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
-    {quantity: 1, name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
-    {quantity: 6, name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
-    {quantity: 3, name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
-    {quantity: 2, name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
-    {quantity: 8, name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
-    {quantity: 7, name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
-    {quantity: 2, name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
-    {quantity: 3, name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
-    {quantity: 5, name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
-    {quantity: 4, name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
-]
+// const phones = [
+//     {quantity: 5, name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
+//     {quantity: 9, name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
+//     {quantity: 1, name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
+//     {quantity: 6, name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
+//     {quantity: 3, name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
+//     {quantity: 2, name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
+//     {quantity: 8, name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
+//     {quantity: 7, name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
+//     {quantity: 2, name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
+//     {quantity: 3, name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
+//     {quantity: 5, name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
+//     {quantity: 4, name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
+// ]
 
 
 
@@ -274,3 +274,23 @@ const phones = [
 
 // const shoppingCost = priceTotal(phones);
 // console.log(`Card cost is ${shoppingCost}`);
+
+// Find the lowest number of Array
+// const height = [167, 190, 120, 165, 137]
+
+// function lowestNumber(numbers){
+//     let min = numbers[0];
+//     for(const number of numbers){
+//         if(number < min){
+//             min = number;
+//         }
+//     }
+//     return min;
+// }
+
+// const cheapest = lowestNumber(height);
+// console.log(`The Lowest number is ${cheapest}`);
+
+
+
+const persons = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
