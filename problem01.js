@@ -124,7 +124,27 @@
 
 
 // -----------------------------------------------------------
+
 // problem solution 02
+
+// Highest Value of the array
+
+
+const height = [65, 52, 85, 96, 41, 53, 66]
+
+function getMax(numbers){
+    let max = numbers[0];
+    for(const num of numbers){
+        if(num > max){
+            max = num;
+        } 
+    }
+    return max;
+}
+
+const max = getMax(height);
+console.log(`Max value is ${max}`);
+
 
 
 
