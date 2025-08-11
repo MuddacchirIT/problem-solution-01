@@ -275,6 +275,7 @@
 // const shoppingCost = priceTotal(phones);
 // console.log(`Card cost is ${shoppingCost}`);
 
+// -----------------------------------------------------------
 // Find the lowest number of Array
 // const height = [167, 190, 120, 165, 137]
 
@@ -292,5 +293,45 @@
 // console.log(`The Lowest number is ${cheapest}`);
 
 
+// -----------------------------------------------------------
 
-const persons = ['rahim', 'robin', 'rafi', 'ron', 'rashed'];
+// Find the smallest name of Array
+
+const persons = ['rahim', 'robin', 'rafi', 'ron', 'rashed']
+
+function lowestNumber(numbers){
+    let min = numbers[0];
+    for(const number of numbers){
+        if(number.length < min.length){
+            min = number;
+        }
+    }
+    return min;
+}
+
+const nameShort = lowestNumber(persons);
+console.log(`The short name is ${nameShort}`);
+
+
+// -----------------------------------------------------------
+
+// Find the cash out charge calculate
+
+// function cashOut(money){
+
+//       let charge = money * (1.85 / 100);
+//       let fixedCharge = charge.toFixed(2);
+//       let finalCharge = parseFloat(fixedCharge)
+//       return finalCharge;
+// }
+// let taka = cashOut(1000);
+// console.log(`Charge is ${taka}`);
+
+
+
+// -----------------------------------------------------------
+
+// Find out valid Mobile Number
+
+
+
