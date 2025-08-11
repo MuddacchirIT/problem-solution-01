@@ -165,19 +165,52 @@
 // problem solution 03
 // The Cheapest Price is 
 
-const prices = [21000, 32000, 15000, 43000, 56000, 17000, 29000];
+// const prices = [21000, 32000, 15000, 43000, 56000, 17000, 29000];
 
-function getMin(numbers){
-        let min = numbers[0];
-        for(const num of numbers){
-            if(num < min){
-                min = num;
+// function getMin(numbers){
+//         let min = numbers[0];
+//         for(const num of numbers){
+//             if(num < min){
+//                 min = num;
+//         }    
+//      }
+//      return min;
+// }
+
+
+// const cheap = getMin(prices);
+// console.log(`Cheapest one is ${cheap}`);
+
+// -----------------------------------------------------------
+// problem solution 04
+// The Cheapest Phone Price from objects
+
+const phones = [
+    {name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
+    {name: 'i-Phone', price: 22000, camera: '12mpx', color: 'black'},
+    {name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
+    {name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
+    {name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
+    {name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
+    {name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
+    {name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
+    {name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
+    {name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
+    {name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
+    {name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
+]
+
+function getCheapestMobile(phones){
+        let min = phones[0];
+        for(const phone of phones){
+            if(phone.price < min.price){
+                min = phone;
         }    
      }
-     return min;
+     return min.price;
 }
 
 
-const cheap = getMin(prices);
+const cheap = getCheapestMobile(phones);
 console.log(`Cheapest one is ${cheap}`);
 
