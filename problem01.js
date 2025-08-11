@@ -2,15 +2,15 @@
 
 // leaf Year
 
-function isLeapYear(year){ 
-    if(((year % 400 === 0) && (year % 100 === 0)) || ((year % 4 === 0) && (year % 100 !== 0))){
-console.log(`${year} is leap year!`);
-    }
-    else {console.log (`${year} is not a leap year!`);
-        }
-}
+// function isLeapYear(year){ 
+//     if(((year % 400 === 0) && (year % 100 === 0)) || ((year % 4 === 0) && (year % 100 !== 0))){
+// console.log(`${year} is leap year!`);
+//     }
+//     else {console.log (`${year} is not a leap year!`);
+//         }
+// }
 
-isLeapYear(2018);
+// isLeapYear(2018);
 
 // -----------------------------------------------------------
 
@@ -65,3 +65,51 @@ isLeapYear(2018);
 // -----------------------------------------------------------
 
 // problem solution 05
+
+// Arry from odd hunting & average 
+
+// function oddAverage(numbers){
+//     const odds = [];
+//     for(const number of numbers){
+//         if(number % 2 === 1){
+//             odds.push(number)
+//             }
+//         }
+//         // console.log(odds);
+//         let sum = 0;
+//         for(const number of odds){
+//             sum = sum + number
+//         }
+//         const count = odds.length;
+//         console.log(sum, count);
+//         const avg = sum / count;
+//         console.log(Math.ceil(avg));
+//         return avg;
+//         }
+   
+
+// const numbers = [1,2, 6, 4, 5, 49]
+// const avg = oddAverage(numbers);
+// console.log(`Average of the odd numbers is ${avg}`)
+
+
+// Same to Same 
+
+// function oddAverage(numbers){
+//    console.log(numbers);
+// }
+
+// const numbers = [42, 13, 58, 65, 81];
+// const avg = oddAverage(numbers);
+// console.log(`Average of the odd numbers is ${avg}`)
+
+
+      //  ----problem solution part 2----
+
+// -----------------------------------------------------------
+  
+
+
+
+
+
