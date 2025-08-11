@@ -219,18 +219,18 @@
 // The Biggest Phone Price from objects
 
 const phones = [
-    {name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
-    {name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
-    {name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
-    {name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
-    {name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
-    {name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
-    {name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
-    {name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
-    {name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
-    {name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
-    {name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
-    {name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
+    {quantity: 5, name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
+    {quantity: 9, name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
+    {quantity: 1, name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
+    {quantity: 6, name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
+    {quantity: 3, name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
+    {quantity: 2, name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
+    {quantity: 8, name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
+    {quantity: 7, name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
+    {quantity: 2, name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
+    {quantity: 3, name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
+    {quantity: 5, name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
+    {quantity: 4, name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
 ]
 
 
@@ -244,7 +244,7 @@ const phones = [
 
 // -----------------------------------------------------------
 // problem solution 05
-// Total price of all phones
+// Total price of all phones by shopping Cart
 
 // function getShoppingTotals (phones){
 //     let total = 0;
@@ -263,3 +263,14 @@ const phones = [
 // Shopping Card
 
 
+// function priceTotal (phones){
+//     let total = 0;
+//     for(const product of phones){
+//         const thisProductCost = product.price * product.quantity
+//         total = total + thisProductCost;
+//     }
+//     return total;
+// }
+
+// const shoppingCost = priceTotal(phones);
+// console.log(`Card cost is ${shoppingCost}`);
