@@ -346,8 +346,46 @@
 
 // Do sorted the array assending/ desending
 
-const numbers = [14, 92, 119, 214, 130, 25, 144, 122, 15, 19, 108, 192, 101, 33, 45, 23];
+// const numbers = [14, 92, 119, 214, 130, 25, 144, 122, 15, 19, 108, 192, 101, 33, 45, 23];
 
-numbers.sort(function (a, b){return b - a});
-console.log(numbers);
+// numbers.sort(function (a, b){return b - a});
+// console.log(numbers);
+
+
+
+// -----------------------------------------------------------
+// The Biggest Phone Price from objects
+
+    // const phones = [
+    //     {quantity: 5, name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
+    //     {quantity: 9, name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
+    //     {quantity: 1, name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
+    //     {quantity: 6, name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
+    //     {quantity: 3, name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
+    //     {quantity: 2, name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
+    //     {quantity: 8, name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
+    //     {quantity: 7, name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
+    //     {quantity: 2, name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
+    //     {quantity: 3, name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
+    //     {quantity: 5, name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
+    //     {quantity: 4, name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
+    // ];
+
+
+
+// -----------------------------------------------------------
+
+// Find out the repeated number of the Array
+
+const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
+
+for(let i = 1; i < numbers.length; i++){
+    if(numbers[i] % 2 === 0){
+
+        // sum = sum + numbers[i];
+        console.log(numbers[i]);
+    }
+
+    }
+
 
