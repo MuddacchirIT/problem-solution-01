@@ -377,15 +377,33 @@
 
 // Find out the repeated number of the Array
 
-const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
+// const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
 
-for(let i = 1; i < numbers.length; i++){
-    if(numbers[i] % 2 === 0){
+// for(let i = 1; i < numbers.length; i++){
+//     if(numbers[i] % 2 === 0){
 
-        // sum = sum + numbers[i];
-        console.log(numbers[i]);
-    }
+//         // sum = sum + numbers[i];
+//         console.log(numbers[i]);
+//     }
 
-    }
+//     }
 
 
+// -----------------------------------------------------------
+
+// Task no 01
+function sum(input1, input2){
+    let result = input1 + input2;
+    return result;
+}
+
+function multiply(input1, input2){
+    let result = input1 * input2;
+    return result;
+}
+
+let a = 4;
+let b = 5;
+let result = sum(a, b) + multiply(a, b)
+
+console.log(result);
