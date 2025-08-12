@@ -478,6 +478,19 @@
 // -----------------------------------------------------------
 // Problem no 01
 
+function cashOutCharge(money){
+    if(money < 0 || typeof money != "number"){
+        return "Invalid"
+    }
+    
+    let charge = money * 0.0185;
+    let chargeFinal = charge.toFixed(2);
+    let fixedCharge = parseFloat(chargeFinal);
+    return chargeFinal;
+}
+
+const Final = cashOutCharge(1500);
+console.log(`Cash Out Charge is ${Final}`);
 
 
 
