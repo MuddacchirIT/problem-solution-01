@@ -297,20 +297,20 @@
 
 // Find the smallest name of Array
 
-const persons = ['rahim', 'robin', 'rafi', 'ron', 'rashed']
+// const persons = ['rahim', 'robin', 'rafi', 'ron', 'rashed']
 
-function lowestNumber(numbers){
-    let min = numbers[0];
-    for(const number of numbers){
-        if(number.length < min.length){
-            min = number;
-        }
-    }
-    return min;
-}
+// function lowestNumber(numbers){
+//     let min = numbers[0];
+//     for(const number of numbers){
+//         if(number.length < min.length){
+//             min = number;
+//         }
+//     }
+//     return min;
+// }
 
-const nameShort = lowestNumber(persons);
-console.log(`The short name is ${nameShort}`);
+// const nameShort = lowestNumber(persons);
+// console.log(`The short name is ${nameShort}`);
 
 
 // -----------------------------------------------------------
@@ -331,7 +331,14 @@ console.log(`The short name is ${nameShort}`);
 
 // -----------------------------------------------------------
 
-// Find out valid Mobile Number
+// Find out the repeated number of the Array
+
+const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
+
+// for(let i = 1; i < numbers.length; i++){
+//     console.log(`${i} is for ${numbers[i]}`);
+// }
+
 
 
 
