@@ -390,7 +390,6 @@
 
 
 // -----------------------------------------------------------
-
 // Task no 01
 // function sum(input1, input2){
 //     let result = input1 + input2;
@@ -410,7 +409,6 @@
 
 
 // -----------------------------------------------------------
-
 // Task no 02
 
 // const points = [1, 2, 3, 4, 5, 6]
@@ -429,24 +427,95 @@
 // const result = sumOfArray(points);
 // console.log(`Sum is ${result}`);
 
-const points = [3, 7, 8];
+// const points = [3, 7, 8];
 
-function sumOfArray(numbers){
-         sum = 0;
-     if (Array.isArray(numbers) !== true){
-        return "Invlid"
-     }
+// function sumOfArray(numbers){
+//          sum = 0;
+//      if (Array.isArray(numbers) !== true){
+//         return "Invlid"
+//      }
        
-    for(let num of numbers){
-        if(typeof num !== "number"){
-            return "Invlid";
-        }
+//     for(let num of numbers){
+//         if(typeof num !== "number"){
+//             return "Invlid";
+//         }
        
-            sum = sum + num;
+//             sum = sum + num;
         
-        }
-    return sum;
-     }
-const result = sumOfArray(points);
-console.log(`Sum is ${result}`);
+//         }
+//     return sum;
+//      }
+// const result = sumOfArray(points);
+// console.log(`Sum is ${result}`);
+
+
+
+// -----------------------------------------------------------
+// Task no 03
+
+// const vowels = ["a", "e","i","o", "u", "A", "E", "I", "O", "U"];
+
+
+// function countVowels(sentence){
+//     if(typeof sentence !== "string" || typeof sentence == Number){
+//         return "Invalid"
+//     }
+
+//     let count = 0;
+//     const letters = Array.from(sentence);
+//     letters.forEach(function(value, index, array){
+//         if(vowels.includes(value)){
+//             count++;
+//         }
+//     });
+//     return count;
+// }
+
+// console.log(countVowels("diojflkdjfslkdfj"));
+
+
+                     // Conceptual Session 11-08-2025
+// -----------------------------------------------------------
+// Problem no 01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // -----------------------------------------------------------
+// problem solution 02
+
+// vowel hunting
+
+// const vowels = ["a", "e","i","o", "u", "A", "E", "I", "O", "U"]
+
+// function countVowels(sentence){
+//     let count = 0;
+//     const letters = Array.from(sentence);
+//     letters.forEach(function(value, index, array){
+//         if(vowels.includes(value)){
+//             count++;
+//         }
+//     });
+//     return count;
+// }
+
+// console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
 
