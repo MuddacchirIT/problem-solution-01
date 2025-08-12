@@ -333,7 +333,7 @@
 
 // Find out the repeated number of the Array
 
-const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
+// const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
 
 // for(let i = 1; i < numbers.length; i++){
 //     console.log(`${i} is for ${numbers[i]}`);
@@ -341,4 +341,13 @@ const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13]
 
 
 
+
+// -----------------------------------------------------------
+
+// Do sorted the array assending/ desending
+
+const numbers = [14, 92, 119, 214, 130, 25, 144, 122, 15, 19, 108, 192, 101, 33, 45, 23];
+
+numbers.sort(function (a, b){return b - a});
+console.log(numbers);
 
