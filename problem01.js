@@ -478,27 +478,40 @@
 // -----------------------------------------------------------
 // Problem no 01
 
-function cashOutCharge(money){
-    if(money < 0 || typeof money != "number"){
+// function cashOutCharge(money){
+//     if(money < 0 || typeof money != "number"){
+//         return "Invalid"
+//     }
+    
+//     let charge = money * 0.0185;
+//     let chargeFinal = charge.toFixed(2);
+//     let fixedCharge = parseFloat(chargeFinal);
+//     return chargeFinal;
+// }
+
+// const Final = cashOutCharge(1500);
+// console.log(`Cash Out Charge is ${Final}`);
+
+
+
+// -----------------------------------------------------------
+// Problem no 02
+
+function validContact(contact){
+    if(contact.length != 11){
+        return "Invalid";
+    }
+    if(contact.startsWith("01") == false){
+        return "Invalid";
+    }
+    if(contact.includes(" ") == true){
         return "Invalid"
     }
-    
-    let charge = money * 0.0185;
-    let chargeFinal = charge.toFixed(2);
-    let fixedCharge = parseFloat(chargeFinal);
-    return chargeFinal;
-}
+    return "Corrected"
+    }
 
-const Final = cashOutCharge(1500);
-console.log(`Cash Out Charge is ${Final}`);
-
-
-
-
-
-
-
-
+const result = validContact("01712764458");
+console.log(`The number is ${result}`)
 
 
 
