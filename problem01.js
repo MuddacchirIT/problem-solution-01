@@ -392,18 +392,61 @@
 // -----------------------------------------------------------
 
 // Task no 01
-function sum(input1, input2){
-    let result = input1 + input2;
-    return result;
-}
+// function sum(input1, input2){
+//     let result = input1 + input2;
+//     return result;
+// }
 
-function multiply(input1, input2){
-    let result = input1 * input2;
-    return result;
-}
+// function multiply(input1, input2){
+//     let result = input1 * input2;
+//     return result;
+// }
 
-let a = 4;
-let b = 5;
-let result = sum(a, b) + multiply(a, b)
+// let a = 4;
+// let b = 5;
+// let result = sum(a, b) + multiply(a, b)
 
-console.log(result);
+// console.log(result);
+
+
+// -----------------------------------------------------------
+
+// Task no 02
+
+// const points = [1, 2, 3, 4, 5, 6]
+
+// function sumOfArray(numbers){
+//      sum = 0;
+//     for(const num of numbers){
+       
+//         if(num % 2== 1){
+//             sum = sum + num;
+//         }
+//     }
+//     return sum;
+// }
+
+// const result = sumOfArray(points);
+// console.log(`Sum is ${result}`);
+
+const points = [3, 7, 8];
+
+function sumOfArray(numbers){
+         sum = 0;
+     if (Array.isArray(numbers) !== true){
+        return "Invlid"
+     }
+       
+    for(let num of numbers){
+        if(typeof num !== "number"){
+            return "Invlid";
+        }
+       
+            sum = sum + num;
+        
+        }
+    return sum;
+     }
+const result = sumOfArray(points);
+console.log(`Sum is ${result}`);
+
