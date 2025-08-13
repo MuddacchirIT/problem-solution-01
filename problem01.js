@@ -330,7 +330,7 @@
 
 
 // -----------------------------------------------------------
-
+                    //  Class 20-5
 // Find out the repeated number of the Array
 
 // const numbers = [14, 12, 19, 14, 13, 25, 14, 12, 15, 19, 18, 12, 11, 13, 15, 13];
@@ -497,51 +497,118 @@
 // -----------------------------------------------------------
 // Problem no 02
 
-function validContact(contact){
-    if(contact.length != 11){
-        return "Invalid";
-    }
-    if(contact.startsWith("01") == false){
-        return "Invalid";
-    }
-    if(contact.includes(" ") == true){
-        return "Invalid"
-    }
-    return "Corrected"
-    }
-
-const result = validContact("01712764458");
-console.log(`The number is ${result}`)
-
-
-
-
-
-
-
-
-
-
-
+//  function validContact(contact){
+//      if(contact.length != 11){
+//          return "Invalid";
+//      }
+//         if(typeof contact !== "string"){
+//          return "Invalid";
+//      }
+//      if(contact.startsWith("01") == false){
+//          return "Invalid";
+//      }
+//      if(contact.includes(" ") == true){
+//          return "Invalid"
+//      }
+//      return "Corrected"
+//      }
+            // ------------------------------
+//  function validContact(contact){
+//     if(contact.length == 11 && contact.startsWith("01") == true && contact.includes(" ") != true){
+//         return "Corrected";
+//     }
+//     else{
+//     return "Wrong";
+//     }
+//     }
 
 
-// // -----------------------------------------------------------
-// problem solution 02
+// const result = validContact([]);
+// console.log(`The number is ${result}`)
 
-// vowel hunting
 
-// const vowels = ["a", "e","i","o", "u", "A", "E", "I", "O", "U"]
+// -----------------------------------------------------------
+// Problem no 03
 
-// function countVowels(sentence){
-//     let count = 0;
-//     const letters = Array.from(sentence);
-//     letters.forEach(function(value, index, array){
-//         if(vowels.includes(value)){
-//             count++;
-//         }
-//     });
-//     return count;
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------------------
+// Discount type
+
+
+// const phones = [
+//         {quantity: 5, name: 'Samsung', price: 20000, camera: '12mpx', color: 'black'},
+//         {quantity: 9, name: 'i-Phone', price: 180000, camera: '12mpx', color: 'black'},
+//         {quantity: 1, name: 'IQ-Z10X', price: 10000, camera: '12mpx', color: 'pink'},
+//         {quantity: 6, name: 'SYMPHONE', price: 50000, camera: '12mpx', color: 'orange'},
+//         {quantity: 3, name: 'OPPO', price: 17000, camera: '12mpx', color: 'black'},
+//         {quantity: 2, name: 'SONY ERICTION', price: 20000, camera: '12mpx', color: 'sky blue'},
+//         {quantity: 8, name: 'RealMe', price: 19000, camera: '12mpx', color: 'black'},
+//         {quantity: 7, name: 'Nokia', price: 61000, camera: '12mpx', color: 'blue'},
+//         {quantity: 2, name: 'Walton', price: 9000, camera: '12mpx', color: 'gray'},
+//         {quantity: 3, name: 'ZTC', price: 26000, camera: '12mpx', color: 'greem'},
+//         {quantity: 5, name: 'HAWAI', price: 32000, camera: '12mpx', color: 'black'},
+//         {quantity: 4, name: 'XIOME', price: 35000, camera: '12mpx', color: 'White'},
+//     ];
+
+
+
+    // function discountPrice(quantity){
+    //     if(quantity <= 100)
+    //     {
+    //         const total = quantity * 100;
+    //         return total;
+    //     }
+    //     else if(quantity <= 100)
+    //     {
+    //         const total = quantity * 90;
+    //         return total;
+    //     }
+    //     else(quantity <= 100)
+    //     {
+    //         const total = quantity * 70;
+    //         return total;
+    //     }
+    // }
+    // const total =discountPrice(5);
+    // console.log(`Discount Price is ${total}`);
+
+
+// function layerDiscountPrice(quantity){
+//     const first100pric = 100;
+//     const second100price = 90;
+//     const above200Price = 70;
+
+
+// if(quantity <= 100){
+//     const total = quantity * first100pric;
+//     return total;
+// }
+// else if(quantity <= 200){
+//      const total = quantity * first100pric;
+//      const remainingQuantity = quantity - 100;
+//      const remainingTotal = remainingQuantity * second100price;
+//     return total = first100Total + remainingTotal;
+// }
+// else{
+//     const first100Total = 100 * first100pric;
+//     const second100price = 100 * second100price;
+//     const remainingQuantity = quantity - 200;
+//     const remainingTotal = remainingQuantity * above200Price;
+//     const total = first100Total + second100Total + remainingTotal;
+//     return total;
+// }
 // }
 
-// console.log(countVowels("I love Bangladesh and we are going to Cox's Bazar."))
 
+
+
+// -----------------------------------------------------------
+// Assignment 04 started here
