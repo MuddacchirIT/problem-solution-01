@@ -636,18 +636,61 @@
 // Assignment 04 started here
 // Problem 02 here
 
- function onlyCharacter(str){ 
+//  function onlyCharacter(str){ 
 
-     if(typeof str != "number"){
-        let upperStr = str.toUpperCase();
-        let noSpaceStr = upperStr.split(" ").join("");
-        return noSpaceStr;
-     }
-     else{
-        Array.isArray == true && str.includes === true;
+//      if(typeof str != "number"){
+//         let upperStr = str.toUpperCase();
+//         let noSpaceStr = upperStr.split(" ").join("");
+//         return noSpaceStr;
+//      }
+//      else{
+//         Array.isArray == true && str.includes === true;
+//         return "Invalid"
+//      }
+//  }
+
+// const result = onlyCharacter("Serv er:: Do wn");
+// console.log(result);
+
+
+// -----------------------------------------------------------
+// Assignment 04 started here
+// Problem 03 here
+
+let team1 = {  name  : "Germany",  foul  : 10,  cardY  : 1,  cardR  : 1 };
+let team2 = {  name  : "France",  foul  : 10,  cardY  : 2,  cardR  : 1 };
+
+ function bestTeam(player1, player2){
+    if(Array.isArray(player1)||Array.isArray(player2)|| typeof player1 === "string" || typeof player2 === "string"){
         return "Invalid"
-     }
- }
+    }
+    let players1Sum = 0;
+    let players2Sum = 0;
 
-const result = onlyCharacter("Serv er:: Do wn");
-console.log(result);
+    for(let key in player1){
+        if(typeof player1[key] === "number"){
+            players1Sum += player1[key]
+        }
+    }
+
+      for(let key in player2){
+        if(typeof player2[key] === "number"){
+            players2Sum += player2[key]
+        }
+    }
+
+    if(players1Sum < players2Sum){
+        return `${player1.name}`
+
+    }
+    else if(players1Sum > players2Sum){
+        return `${player2.name}`
+    }
+    else{
+         return "Tie"}
+    }
+
+ const result = bestTeam(team1, team2);
+ console.log(result);
+ 
+
